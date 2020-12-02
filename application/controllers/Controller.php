@@ -33,6 +33,16 @@ class Controller extends CI_Controller {
 		$this->load->view('sub/foot');
 	}
 
+	public function bantuan(){
+		$this->load->view('sub/head');
+		$this->load->view('sub/header');
+		$this->load->view('bantuan');
+		$this->load->view('sub/footer');
+		$this->load->view('sub/foot');
+	}
+
+
+
 	#BOOKING LAYANAN==========================================================================
 	public function dtl_layanan($id){
 		$data['dtl_layanan'] = $this->Model->get_where_layanan($id);

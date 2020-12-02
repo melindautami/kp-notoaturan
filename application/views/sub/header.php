@@ -13,7 +13,7 @@
                     <ul class="nav">
                         <li><a href="<?= base_url('Controller') ?>">Beranda</a></li>
                         <li><a href="<?= base_url('Controller/lawyer') ?>">Cari Pengacara</a></li>
-                        <li><a href="">Bantuan</a></li>
+                        <li><a href="<?= base_url('Controller/bantuan') ?>">Bantuan</a></li>
                         <li><a href="">Pengaduan</a></li> 
                         <li><a href="">Kontak</a></li>
                         <?php if($this->session->userdata('akses')){ ?>
