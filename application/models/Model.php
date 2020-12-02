@@ -180,6 +180,23 @@ class Model extends CI_Model {
 		}
 	}
 
+	public function upload_pengaduan(){
+		$config['upload_path'] = './assets/pengaduan/';
+		$config['allowed_types'] = 'jpg|png|jpeg|mp4';
+		$config['max_size'] = '120000';
+		$config['remove_space'] = true;
+
+		$this->load->library('upload', $config);
+
+		if ($this->upload->do_upload('file')) {
+			$return = array('result' => 'success','file' => $this->upload->data(), 'error' => '');
+			return $return;
+		} else {
+			$return = array('result' => 'failed', 'file' => '', 'error' => $this->upload->display_errors());
+			return $return;
+		}
+	}
+
 	#LOGIN =======================================================================================
 	public function login_admin($email,$pass){
 		$this->db->where('email',$email);

@@ -14,8 +14,7 @@
                         <li><a href="<?= base_url('Controller') ?>">Beranda</a></li>
                         <li><a href="<?= base_url('Controller/lawyer') ?>">Cari Pengacara</a></li>
                         <li><a href="<?= base_url('Controller/bantuan') ?>">Bantuan</a></li>
-                        <li><a href="">Pengaduan</a></li> 
-                        <li><a href="">Kontak</a></li>
+                        <li><a href="<?= base_url('Controller/pengaduan') ?>">Pengaduan</a></li> 
                         <?php if($this->session->userdata('akses')){ ?>
                         <li class="dropdown active login">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?= $this->session->userdata('nama') ?> <i class="icon-angle-down"></i></a>
