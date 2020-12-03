@@ -26,7 +26,7 @@
                         </li>
                         <?php }else{ ?>
                         <li class="login">
-                            <a data-toggle="modal" href="#loginForm"><i class="icon-lock"></i></a>
+                            <a data-toggle="modal" href="#loginForm">LOGIN</a>
                         </li>
                         <?php } ?>
                     </ul>        
