@@ -12,9 +12,11 @@
             <label class="checkbox">
                 <input type="checkbox"> Remember me
             </label> <br /><br />
-            <button type="submit" name="login" class="btn btn-primary">Login</button>
+            <button type="submit" name="login" class="btn btn-primary btn-login">LOGIN</button>
         </form>
-        Belum punya akun ? <a href="<?=base_url('Controller/daftar')?>">Join</a>
+        <div class="modal-join">
+            Belum punya akun ? <a href="<?=base_url('Controller/daftar')?>">Join</a>
+        </div>
     </div>
     <!--/Modal Body-->
 </div>

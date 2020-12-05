@@ -15,7 +15,7 @@
     </div>
 </section>
 
-<section id="about-us" class="container main">
+<section id="layanan" class="container main">
     <div class="row-fluid">
         <div class="span6">
             <img src="<?=base_url('assets/images/'.$in->icon)?>"><br><br>

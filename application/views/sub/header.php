@@ -19,7 +19,7 @@
                         <li class="dropdown active login">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?= $this->session->userdata('nama') ?> <i class="icon-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="">Profil</a></li>
+                                <li><a href="<?= base_url('Controller/profil') ?>">Profil</a></li>
                                 <li><a href="<?= base_url('Controller/history') ?>">History</a></li>
                                 <li><a href="<?= base_url('Controller/logout') ?>">Logout</a></li>
                             </ul>

@@ -7,7 +7,7 @@
         <div class="row-fluid">
 
             <!--Contact Form-->
-            <div class="span3">
+            <div class="span5">
                 <h4>ALAMAT</h4>
                 <ul class="unstyled address">
                     <li>
@@ -30,16 +30,16 @@
             <!--End Contact Form-->
 
             <!--Important Links-->
-            <div id="tweets" class="span3">
+            <div id="footLayanan" class="span3">
                 <h4>Layanan Kami</h4>
                 <div>
                     <ul class="arrow">
-                        <li><a href="#">NPWP</a></li>
-                        <li><a href="#">Drafting</a></li>
-                        <li><a href="#">Translator</a></li>
-                        <li><a href="#">Hak Cipta</a></li>
-                        <li><a href="#">Izin Usaha</a></li>
-                        <li><a href="#">Review</a></li>
+                        <li><a href="#layanan">NPWP</a></li>
+                        <li><a href="#layanan">Drafting</a></li>
+                        <li><a href="#layanan">Translator</a></li>
+                        <li><a href="#layanan">Hak Cipta</a></li>
+                        <li><a href="#layanan">Izin Usaha</a></li>
+                        <li><a href="#layanan">Review</a></li>
                     </ul>
                 </div>  
             </div>
@@ -51,12 +51,12 @@
                 <div>
                     <br>
                     <ul class="arrow">
-                        <li><a href="#">Notaris Umum</a></li>
-                        <li><a href="#">Legal Momerandum</a></li>
-                        <li><a href="#">Perpajakan</a></li>
-                        <li><a href="#">Desain Industri</a></li>
-                        <li><a href="#">Notaris Korporasi</a></li>
-                        <li><a href="#">Badan Usaha CV</a></li>
+                        <li><a href="#layanan">Notaris Umum</a></li>
+                        <li><a href="#layanan">Legal Momerandum</a></li>
+                        <li><a href="#layanan">Perpajakan</a></li>
+                        <li><a href="#layanan">Desain Industri</a></li>
+                        <li><a href="#layanan">Notaris Korporasi</a></li>
+                        <li><a href="#layanan">Badan Usaha CV</a></li>
                     </ul>
                 </div>
             </div>

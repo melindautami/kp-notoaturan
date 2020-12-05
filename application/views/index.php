@@ -35,7 +35,7 @@
 </section>
 <!--/Slider-->
 
-<section id="about-us" class="container main">
+<section id="layanan" class="container main">
     <!-- Meet the team -->
     <h1 class="center">Layanan Kami</h1>
     <hr>
@@ -54,6 +54,7 @@
     <br><br>
     <div class="row-fluid">
         <div class="span12">
+            <br />
             <table>
                 <tr>
                     <td width="400">
@@ -65,6 +66,7 @@
                     </td>
                 </tr>
             </table>
+            <br /><br /><br /><br /><br />
         </div>
     </div>
 </section>
