@@ -222,4 +222,10 @@ class Model extends CI_Model {
 		return $this->db->get('tb_notaris')->row();
 	}
 
+	public function get_profil($id){
+		$this->db->from('tb_client');
+		$this->db->where('tb_client.id_client',$id);
+		return $this->db->get()->result();
+	}
+
 }	

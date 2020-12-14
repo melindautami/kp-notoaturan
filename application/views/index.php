@@ -7,13 +7,7 @@
             <!--Slider Item1-->
             <div class="sl-slide item1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
                 <div class="sl-slide-inner">
-                    <div class="container">
-                        <img class="pull-right" src="<?= base_url('assets/images/sample/slider/img1.png') ?>" />
-                        <h2>Noto Aturan</h2>
-                        <h3 class="gap">Hukum adalah hati nurani  publik</h3>
-                        <h4>-Thomas Hobbes, Leviathan.</h4>
-                        <!--<a class="btn btn-large btn-transparent" href="#">Learn More</a>-->
-                    </div>
+                    <img class="pull-right" src="<?= base_url('assets/images/sample/slider/slide 1.png') ?>" />
                 </div>
             </div>
             <!--/Slider Item1-->
@@ -21,13 +15,7 @@
             <!--Slider Item2-->
             <div class="sl-slide item2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
                 <div class="sl-slide-inner">
-                    <div class="container">
-                        <img class="pull-right" src="<?= base_url('assets/') ?>images/sample/slider/img2.png" alt="" />
-                        <h2>Noto Aturan</h2>
-                        <h3 class="gap">Perdamaian tanpa keadilan adalah ilusi</h3>
-                        <h4>-KH. Abdurrahman Wahid</h4>
-                        <!--<a class="btn btn-large btn-transparent" href="#">Pelajari</a>-->
-                    </div>
+                    <img class="pull-right" src="<?= base_url('assets/') ?>images/sample/slider/slide 2.png" alt="" />
                 </div>
             </div>
             <!--Slider Item2-->
@@ -47,7 +35,7 @@
 </section>
 <!--/Slider-->
 
-<section id="about-us" class="container main">
+<section id="layanan" class="container main">
     <!-- Meet the team -->
     <h1 class="center">Layanan Kami</h1>
     <hr>
@@ -59,25 +47,26 @@
                 <h5><a href="<?=base_url('Controller/dtl_layanan/'.$in->id_layanan)?>"><?= $in->nama_layanan ?></a></h5>
                 <h6>Harga Rp <?= number_format($in->harga) ?></h6>
             </div>
+            <br />
         </div>
         <?php } ?>
     </div>
     <br><br>
     <div class="row-fluid">
         <div class="span12">
+            <br />
             <table>
                 <tr>
-                    <td>
-                        <img width="480" src="<?=base_url('assets/')?>images/logo.png">
+                    <td width="400">
+                        <img width="300" src="<?=base_url('assets/')?>images/logo.png">
                     </td>
                     <td>
-                        <p align="icon-angle-left">
-                            Keberadaan lembaga bantuan hukum di negeri ini cukup berkembang, apalagi banyak kasus hukum yang semakin hari makin banyak saja dan seakan tak ada habisnya.Khususnya untuk masyarakat yang tidak mampu dan atau buta hukum serta berusaha menumbuhkan, mengembangkan, memajukan pengertian dan penghormatan terhadap nilai-nilai negara hukum. Dan hak-hak asasi manusia pada umumnya, serta berusaha meninggikan kesadaran hukum masyarakat pada khususnya.
-                            Kami Noto Aturan adalah solusi terpercaya bagi anda, handir dengan inovasi terkini melalui platform website. Menjembatani klien dengan beberapa tenaga profesional dan tentunya ahli dalam bidangnya.
-                        </p>
+                        <h5>Notoaturan adalah platform cerdas pertama yang melayani jasa legal untuk UMKM dan perusahaan besar sejak 2016 di Indonesia. Kami bangga menjadi yang pertama dan satu-satunya platform yang melayani legalitas tanpa ada batasan, berkualitas, dan terjangkau. Kontrak Hukum juga merupakan startup di bidang hukum pertama yang mendapatkan pendanaan di Indonesia.</h5>
+                        <h5>Notoaturan hadir untuk melayani segala kebutuhan hukum Anda secara cepat, mudah, dan terjangkau. Dengan sistem yang terintegrasi secara digital, Notoaturan dapat menyelesaikan permasalahan hukum Anda dalam hitungan jam secara optimal.</h5>
                     </td>
                 </tr>
             </table>
+            <br /><br /><br /><br /><br />
         </div>
     </div>
 </section>

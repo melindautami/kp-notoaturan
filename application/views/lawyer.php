@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row-fluid">
             <div class="span6">
-                <h1>Lawyer</h1>
+                <h2>Daftar Lawyer</h2>
             </div>
             <div class="span6">
                 <ul class="breadcrumb pull-right">
@@ -17,7 +17,6 @@
 <section id="about-us" class="container main">
     <div class="row">
         <div class="span12">
-            <a href="#"><h2>Daftar Lawyer</h2></a>
             <div class="row-fluid">
                 <?php foreach ($lawyer as $in){ ?>
                 <div class="span2">

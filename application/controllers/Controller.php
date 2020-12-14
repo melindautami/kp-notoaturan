@@ -50,6 +50,15 @@ class Controller extends CI_Controller {
 		$this->load->view('sub/foot');
 	}
 
+	public function profil(){
+		$data['profil'] = $this->Model->get('tb_client');
+		$this->load->view('sub/head');
+		$this->load->view('sub/header');
+		$this->load->view('profil',$data);
+		$this->load->view('sub/footer');
+		$this->load->view('sub/foot');
+	}
+
 	#BOOKING LAYANAN==========================================================================
 	public function dtl_layanan($id){
 		$data['dtl_layanan'] = $this->Model->get_where_layanan($id);
@@ -301,5 +310,7 @@ class Controller extends CI_Controller {
 		$this->session->sess_destroy();
 		redirect('Controller');
 	}
+
+
 
 }

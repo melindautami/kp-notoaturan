@@ -2,19 +2,21 @@
 <div class="modal hide fade in" id="loginForm" aria-hidden="false">
     <div class="modal-header">
         <i class="icon-remove" data-dismiss="modal" aria-hidden="true"></i>
-        <h4>Login Form</h4>
+        <h4 align="center">Login</h4><br />
     </div>
     <!--Modal Body-->
     <div class="modal-body">
         <form class="form-inline" action="<?= base_url('Controller/proses_login') ?>" method="post">
-            <input type="text" name="email" class="input-small" placeholder="Email">
-            <input type="password" name="pass" class="input-small" placeholder="Password">
+            <input type="text" name="email" class="input-small" placeholder="Email"> <br /> <br />
+            <input type="password" name="pass" class="input-small" placeholder="Password"> <br /> <br />
             <label class="checkbox">
                 <input type="checkbox"> Remember me
-            </label>
-            <button type="submit" name="login" class="btn btn-primary">Login</button>
+            </label> <br /><br />
+            <button type="submit" name="login" class="btn btn-primary btn-login">LOGIN</button>
         </form>
-        Belum punya akun ? <a href="<?=base_url('Controller/daftar')?>">Join</a>
+        <div class="modal-join">
+            Belum punya akun ? <a href="<?=base_url('Controller/daftar')?>">Join</a>
+        </div>
     </div>
     <!--/Modal Body-->
 </div>
