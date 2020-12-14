@@ -68,7 +68,13 @@
             <table>
                 <tr>
                     <td>
-                        <img width="300" src="<?=base_url('assets/')?>images/logo.png">
+                        <img width="480" src="<?=base_url('assets/')?>images/logo.png">
+                    </td>
+                    <td>
+                        <p align="icon-angle-left">
+                            Keberadaan lembaga bantuan hukum di negeri ini cukup berkembang, apalagi banyak kasus hukum yang semakin hari makin banyak saja dan seakan tak ada habisnya.Khususnya untuk masyarakat yang tidak mampu dan atau buta hukum serta berusaha menumbuhkan, mengembangkan, memajukan pengertian dan penghormatan terhadap nilai-nilai negara hukum. Dan hak-hak asasi manusia pada umumnya, serta berusaha meninggikan kesadaran hukum masyarakat pada khususnya.
+                            Kami Noto Aturan adalah solusi terpercaya bagi anda, handir dengan inovasi terkini melalui platform website. Menjembatani klien dengan beberapa tenaga profesional dan tentunya ahli dalam bidangnya.
+                        </p>
                     </td>
                 </tr>
             </table>
